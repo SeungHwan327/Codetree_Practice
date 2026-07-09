@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    scanf("%d",&a);
+
+    printf((a==1)? "t\n" : "f\n");
+    
+    return 0;
+}
