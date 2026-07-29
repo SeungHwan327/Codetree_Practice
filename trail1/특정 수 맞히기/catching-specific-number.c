@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    while(1) {
+        scanf("%d",&n);
+        if(n==25) {
+            printf("Good\n");
+            break;
+        } else if(n>25) printf("Lower\n");
+        else if(n<25) printf("Higher\n");
+    }
+
+    return 0;
+}
